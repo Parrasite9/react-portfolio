@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- ==============================
+==============================
+===== INSTALLED PACKAGES =====
+==============================
+============================== -->
+
+<!-- REFERENCE VIDEO  -->
+https://www.youtube.com/watch?v=bmpI252DmiI
+
+<!-- INSTALLED EMAILJS -->
+npm i emailjs/browser
+
+<!-- INSTALLED SVG ICONS -->
+npm i @fortawesome/free-brands-svg-icons
+npm i @fortawesome/free-solid-svg-icons
+npm i @fortawesome/react-fontawesome 
+
+<!-- CSS OBJECT & FONT ANIMATOR -->
+npm i animate.css
+
+<!-- ADVANCED CSS ANIMATOR -->
+npm i gsap-trial (trial is to avoid creating account)
+
+<!-- CREATING LOADING INTEGRATION -->
+npm i react-loaders
+
+<!-- CREATING LOADERS -->
+npm i loaders.css
+
+<!-- CREATING MAPS -->
+npm i react-leaflet
+
+<!-- PAGE NAVIGATION -->
+npm i react-router-dom
+
+<!-- SASS -->
+npm i sass
+
