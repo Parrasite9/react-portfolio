@@ -1,4 +1,5 @@
 import AnimatedLetters from '../AnimationLetters/Animated'
+import Loader from 'react-loaders'
 import './About.scss'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -71,8 +72,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
+            <Loader type='pacman' />
         </>
     )
 }
