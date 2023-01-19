@@ -1,9 +1,9 @@
 import { Link, NavLink } from 'react-router-dom'
 import './Sidebar.scss'
-import LogoI from '../../assets/images/i.png'
+import Logo2 from '../../assets/images/logo-i2.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
@@ -12,21 +12,28 @@ const Sidebar = () => {
             <div className='navbar'>
                     {/* <LINK> IS USED FOR ROUTER DOM (USED FROM NPM I ROUTER-DOM) */}
                     <Link className='logo' to='/' >
-                        <img src={LogoI} alt='logo' />
+                        <img src={Logo2} alt='logo' />
                         <img className='sub-logo' src={LogoSubtitle} alt='subTitle' />
                     </Link>
 
-                    <nav>
+                <nav>
+
+                    {/* HOME  */}
                     <NavLink exact='true' activeclassname='active' to='/'>
                         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                     </NavLink>
                     
-
+                    {/* ABOUT  */}
                     <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
                         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                     </NavLink>
 
+                    {/* PORTFOLIO  */}
+                    <NavLink exact='true' activeclassname='active' className='portfolio-link' to='/portfolio'>
+                        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+                    </NavLink>
 
+                    {/* CONTACT  */}
                     <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                     </NavLink>

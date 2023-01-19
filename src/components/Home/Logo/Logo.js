@@ -44,8 +44,8 @@ const Logo = () => {
                 <img ref={solidLogoRef} className='solid-logo' src={Hero3D} alt="I" />
 
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                width="74.000000pt" height="300.000000pt" viewBox="0 0 74.000000 300.000000"
-                preserveAspectRatio="xMidYMid meet">
+                    width="74.000000pt" height="300.000000pt" viewBox="0 0 74.000000 300.000000"
+                    preserveAspectRatio="xMidYMid meet">
 
                     <g className='svg-container' transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
                     fill="#000000" stroke="none">
@@ -57,8 +57,8 @@ const Logo = () => {
                 </svg>
 
                 {/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                width="300.000000pt" height="214.000000pt" viewBox="0 0 300.000000 214.000000"
-                preserveAspectRatio="xMidYMid meet">
+                    width="74.000000pt" height="300.000000pt" viewBox="0 0 300.000000 214.000000"
+                    preserveAspectRatio="xMidYMid meet">
 
                     <g className='svg-container' transform="translate(0.000000,214.000000) scale(0.100000,-0.100000)"
                     fill="#000000" stroke="none">
