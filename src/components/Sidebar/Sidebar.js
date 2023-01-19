@@ -20,7 +20,7 @@ const Sidebar = () => {
                         <img className='sub-logo' src={LogoSubtitle} alt='subTitle' />
                     </Link>
 
-                <nav className={showNav ? 'mobile-show' : ' '}>
+                <nav className={showNav ? 'mobile-show' : ''}>
 
                     {/* HOME  */}
                     <NavLink exact='true' activeclassname='active' to='/' onClick={() => setShowNav(false)}>
@@ -60,13 +60,15 @@ const Sidebar = () => {
                         </a>
                     </li>
 
-
+                    {/* FACEBOOK LINK  */}
                     <li>
                         <a target='_blank' rel='noreferrer' href='https://www.facebook.com/isaiah.johnson.188'>
                             <FontAwesomeIcon icon={faFacebook} color='#4d4d4e' />
                         </a>
                     </li>                  
                 </ul>
+
+                {/* HAMBURGER ICON  */}
                 <FontAwesomeIcon icon={faBars} color="#ff0050" size='3x' className='hamburger-icon' onClick={() => setShowNav(true)}/>
             </div>
         </>

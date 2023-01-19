@@ -1,7 +1,9 @@
 .logo-container {
     z-index: 0;
-    width: 100px;
-    height: 500px;
+    // width: 100px;
+    width: 200px;
+    // height: 500px;
+    height: 800px;
     position: absolute;
     top: 0;
     right: 15%;
@@ -11,7 +13,8 @@
     opacity: 0;
 
     svg {
-        width: 100%;
+        // width: 100%;
+        width: 200px;
         height: auto;
         bottom: 0;
         transform: rotateZ(30deg) !important;
@@ -35,3 +38,9 @@
     stroke: purple;
     stroke-width: 10px;
 }
+
+// @media screen and (max-width: 1200px) {
+//     .logo-container {
+//         bottom: 10%;
+//     }
+// }

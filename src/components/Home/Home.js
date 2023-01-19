@@ -7,6 +7,7 @@ import AnimatedLetters from '../AnimationLetters/Animated'
 import Logo from './Logo/Logo.js'
 import Loader from 'react-loaders'
 
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     // I in this array is Hero_i, so it will not be in array

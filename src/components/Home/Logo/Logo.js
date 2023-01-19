@@ -5,6 +5,7 @@ import Hero3D from '../../../assets/images/hero3d.png'
 import { useEffect, useRef } from 'react'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import gsap from 'gsap-trial'
+import Hero2 from '../../../assets/images/LargeLogo.png'
 
 
 const Logo = () => {
@@ -43,7 +44,7 @@ const Logo = () => {
             <div className='logo-container' ref={bgRef} >
                 <img ref={solidLogoRef} className='solid-logo' src={Hero3D} alt="I" />
 
-                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                {/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="74.000000pt" height="300.000000pt" viewBox="0 0 74.000000 300.000000"
                     preserveAspectRatio="xMidYMid meet">
 
@@ -54,9 +55,9 @@ const Logo = () => {
                         <path d="M720 2993 c-5 -546 -3 -2983 3 -2983 4 0 7 673 7 1495 0 822 -2 1495
                         -5 1495 -3 0 -5 -3 -5 -7z"/>
                     </g>
-                </svg>
+                </svg> */}
 
-                {/* <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="74.000000pt" height="300.000000pt" viewBox="0 0 300.000000 214.000000"
                     preserveAspectRatio="xMidYMid meet">
 
@@ -69,7 +70,7 @@ const Logo = () => {
                         l-174 0 0 833 c0 459 3 837 7 840 11 11 313 8 334 -3z m5 -1695 c-16 -12 -58
                         -15 -205 -15 -165 0 -183 2 -165 15 15 11 57 14 204 14 165 0 183 -1 166 -14z"/>
                     </g>
-                </svg> */}
+                </svg>
 
             </div>
         </>

@@ -130,3 +130,11 @@
     }
 }
 
+
+
+@media screen and (max-width: 1200px) {
+    .tags, .contact-page h1::before,
+    .contact-page h1::after {
+        display: none;
+    }
+}
