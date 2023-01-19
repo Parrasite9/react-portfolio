@@ -3,10 +3,14 @@ import './Sidebar.scss'
 import Logo2 from '../../assets/images/logo-i2.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faSuitcase, faUser, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { useState } from 'react'
 
 const Sidebar = () => {
+    const [showNav, setShowNav] = useState(false)
+    
+
     return (
         <>
             <div className='navbar'>
@@ -16,7 +20,7 @@ const Sidebar = () => {
                         <img className='sub-logo' src={LogoSubtitle} alt='subTitle' />
                     </Link>
 
-                <nav>
+                <nav className={showNav ? 'mobile-show' : ' '}>
 
                     {/* HOME  */}
                     <NavLink exact='true' activeclassname='active' to='/'>
@@ -37,6 +41,8 @@ const Sidebar = () => {
                     <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                     </NavLink>
+
+                    <FontAwesomeIcon icon={faClose} color='#ff0050' size='3x' className='close-icon' onClick={() => setShowNav(false)} />
                 </nav>
 
                 <ul>
@@ -59,10 +65,9 @@ const Sidebar = () => {
                         <a target='_blank' rel='noreferrer' href='https://www.facebook.com/isaiah.johnson.188'>
                             <FontAwesomeIcon icon={faFacebook} color='#4d4d4e' />
                         </a>
-                    </li>
-
-                    
+                    </li>                  
                 </ul>
+                <FontAwesomeIcon icon={faBars} color="#ff0050" size='3x' className='hamburger-icon' onClick={() => setShowNav(true)}/>
             </div>
         </>
     )
