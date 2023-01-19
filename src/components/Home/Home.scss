@@ -43,7 +43,7 @@
         img {
             width: 9.5px;
             height: auto;
-            padding-left: 5%;
+            padding-left: 2%;
             padding-right: .5%;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
@@ -122,5 +122,11 @@
             margin: 20px auto 0 auto;
             width: 125px;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    svg {
+        display: none;
     }
 }

@@ -106,21 +106,21 @@ const Portfolio = () => {
                 <div className='grid-container' >
 
                     {/* SEDUCTIVEBOX  */}
-                    <div className='grid-item' >
+                    <div className='grid-item g1' >
                         <a href='https://www.seductivebox.com'><img src='https://i.imgur.com/pOdOOjY.jpg' /></a>
                     </div>
 
                     {/* PARRALAX  */}
-                    <div className='grid-item' >
+                    <div className='grid-item g2' >
                         <a href='https://parrasite9.github.io/Parralax/'><img src='https://i.imgur.com/yxT5lvQ.jpg' /></a>
                     </div>
 
                     {/* TINDOG */}
-                    <div className='grid-item' >
+                    <div className='grid-item g3' >
                         <a href='seductivebox.com'><img src='https://i.imgur.com/NHlYQd8.jpg' /></a>
                     </div>
 
-                    <div className='grid-item' >
+                    <div className='grid-item g4' >
                         <h2 className='project-title'><b>Single Page Apps</b></h2>
                         <h2>Lorem Ipsum</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in bibendum malesuada, velit velit malesuada eros, vel tempor nisl urna eu velit.</p>
@@ -134,23 +134,23 @@ const Portfolio = () => {
                     </div> */}
 
                     {/* SEDUCTIVEBOX  */}
-                    <div className='grid-item' >
+                    <div className='grid-item g5' >
                         <a href='https://www.seductivebox.com'><img src='https://i.imgur.com/pOdOOjY.jpg' /></a>
                     </div>
 
                     {/* PARRALAX  */}
-                    <div className='grid-item' >
+                    <div className='grid-item g6' >
                         <a href='https://parrasite9.github.io/Parralax/'><img src='https://i.imgur.com/yxT5lvQ.jpg' /></a>
                     </div>
 
-                    <div className='grid-item' >
+                    <div className='grid-item g7' >
                         <h2 className='project-title'><b>Full Stack</b></h2>
                         <h2>Python, Django, Postgresql, and more!</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in bibendum malesuada, velit velit malesuada eros, vel tempor nisl urna eu velit.</p>
                     </div>
                     
                     {/* TINDOG */}
-                    <div className='grid-item' >
+                    <div className='grid-item g8' >
                         <a href='seductivebox.com'><img src='https://i.imgur.com/NHlYQd8.jpg' /></a>
                     </div>
 
